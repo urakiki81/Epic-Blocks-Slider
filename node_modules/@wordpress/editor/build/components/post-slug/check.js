@@ -1,0 +1,23 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = PostSlugCheck;
+
+var _element = require("@wordpress/element");
+
+var _postTypeSupportCheck = _interopRequireDefault(require("../post-type-support-check"));
+
+/**
+ * Internal dependencies
+ */
+function PostSlugCheck(_ref) {
+  var children = _ref.children;
+  return (0, _element.createElement)(_postTypeSupportCheck.default, {
+    supportKeys: "slug"
+  }, children);
+}
+//# sourceMappingURL=check.js.map

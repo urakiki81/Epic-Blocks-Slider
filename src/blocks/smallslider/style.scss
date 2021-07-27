@@ -1,0 +1,26 @@
+.epic-slider_container-small{
+    max-width: 600px;
+    margin: auto;
+    .epic-slider_small .slick-nav{
+        top: calc(95% - 44px);
+    }
+
+    .slick-list .slick-track .slick-slide{
+        .slide__img{
+            height: 100%;
+        }
+        div .wp-block-epicslider-blocks-firstslider{
+            max-width: 600px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .slick-slide{
+        max-width: 600px;
+    }
+}
+.epic-slider_small{
+    max-width: 600px;
+
+}

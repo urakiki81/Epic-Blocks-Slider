@@ -1,0 +1,101 @@
+{
+    "name": "epic-block-slider",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "checkFormat": "prettier --check \"**/*.{js,json,css,scss}\"",
+        "format": "prettier --write \"**/*.{js,json,css,scss}\"",
+        "lint": "eslint src",
+        "start": "cross-env webpack --mode=development --watch",
+        "build": "npm run lint && webpack --mode=production && gulp bundle"
+    },
+    "engines": {
+        "node": ">=10.0.0",
+        "npm": ">=6.9.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "linters": {
+            "src/**/*.js": "eslint",
+            "**/*.{js,json,css,scss}": [
+                "prettier --write",
+                "git add"
+            ]
+        }
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {},
+    "homepage": "https://github.com/alialaa/gutenberg-course-webpack#readme",
+    "dependencies": {
+        "@babel/runtime": "^7.11.2",
+        "@wordpress/api-fetch": "^3.19.1",
+        "@wordpress/blob": "^2.9.0",
+        "@wordpress/block-library": "^2.24.0",
+        "@wordpress/blocks": "^6.2.2",
+        "@wordpress/compose": "^3.20.1",
+        "@wordpress/data": "^4.23.1",
+        "@wordpress/dom": "^2.14.0",
+        "@wordpress/editor": "^9.22.0",
+        "@wordpress/escape-html": "^1.9.0",
+        "@wordpress/hooks": "^2.9.0",
+        "@wordpress/html-entities": "^2.9.0",
+        "@wordpress/i18n": "^3.16.0",
+        "@wordpress/icons": "^2.6.0",
+        "@wordpress/server-side-render": "^1.17.1",
+        "@wordpress/url": "^2.18.0",
+        "@wordpress/viewport": "^2.22.1",
+        "classnames": "^2.2.5",
+        "jquery": "^3.4.0",
+        "lodash": "^4.17.20",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-easy-crop": "^3.0.0",
+        "slick-carousel": "^1.8.1",
+        "swiper": "^6.3.3",
+        "wp-cli": "0.0.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "@wordpress/babel-plugin-makepot": "^3.9.0",
+        "@wordpress/browserslist-config": "^2.3.0",
+        "@wordpress/components": "^7.3.1",
+        "@wordpress/element": "^2.3.0",
+        "autoprefixer": "^9.5.1",
+        "babel-eslint": "^10.0.1",
+        "babel-loader": "^8.0.5",
+        "browserslist": "^4.5.4",
+        "classnames": "^2.2.6",
+        "clean-webpack-plugin": "^2.0.1",
+        "cross-env": "^7.0.3",
+        "css-loader": "^2.1.1",
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-loader": "^2.1.2",
+        "eslint-plugin-react": "^7.12.4",
+        "gulp": "^4.0.0",
+        "gulp-zip": "^4.2.0",
+        "husky": "^1.3.1",
+        "lint-staged": "^8.1.5",
+        "mini-css-extract-plugin": "^0.6.0",
+        "node-sass": "^4.11.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.1",
+        "postcss-loader": "^3.0.0",
+        "prettier": "^1.17.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.0"
+    },
+    "browserslist": [
+        "extends @wordpress/browserslist-config"
+    ]
+}

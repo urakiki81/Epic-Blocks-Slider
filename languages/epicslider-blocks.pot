@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-12-01 09:34-0500\n"
+"PO-Revision-Date: 2020-12-01 09:35-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;sprintf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+
+msgid "Epic Slider"
+msgstr ""
+
+
+msgid "Setting"
+msgstr ""
+
+
+msgid "Shadow Opacity"
+msgstr ""
+
+
+msgid "Panel"
+msgstr ""
+
+
+msgid "Backgorund Color"
+msgstr ""
+
+
+msgid "Text Color"
+msgstr ""
+
+
+msgid "Border Color"
+msgstr ""
+
+
+msgid "Button Animtion Setting"
+msgstr ""
+
+msgid "Button Animtion"
+msgstr ""
+
+
+msgid "Pop Up"
+msgstr ""
+
+msgid "Fill"
+msgstr ""
+
+msgid "Fill Center"
+msgstr ""
+
+msgid "Fill two Way"
+msgstr ""
+
+msgid "Big Border"
+msgstr ""
+
+msgid "Animtion Setting"
+msgstr ""
+
+msgid "Bounce In"
+msgstr ""
+
+msgid "Fade In Down"
+msgstr ""
+
+msgid "Fade In"
+msgstr ""
+
+msgid "Bounce In Left"
+msgstr ""
+
+msgid "Bounce In Right"
+msgstr ""
+
+msgid "Fade In up"
+msgstr ""
+
+msgid "Move Up"
+msgstr ""
+
+msgid "Move Down"
+msgstr ""
+
+msgid "Zoom In"
+msgstr ""
+
+msgid "Fade In Left"
+msgstr ""
+
+msgid "Fade In Right"
+msgstr ""
+
+msgid "Flip In Y"
+msgstr ""
+
+msgid "Flip In X"
+msgstr ""
+
+msgid "Rotate In Down Left"
+msgstr ""
+
+
+msgid "Rotate In Down Right"
+msgstr ""
+
+msgid "Rotate In Up Left"
+msgstr ""
+
+msgid "Rotate In Up Right"
+msgstr ""
+
+msgid "Jello"
+msgstr ""
+
+msgid "RubberBand"
+msgstr ""
+
+msgid "Animtion Delay"
+msgstr ""
+
+msgid "Slide In Animtion"
+msgstr ""
+
+msgid "Shadow"
+msgstr ""
+
+msgid "Epic Button"
+msgstr ""
+
+msgid "Epic Button Block For Epic Sliders"
+msgstr ""
+
+msgid "photo"
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "squared"
+msgstr ""
+
+msgid "rounded"
+msgstr ""
+
+msgid "Outline"
+msgstr ""
+
+msgid "border round"
+msgstr ""
+
+msgid "border squared"
+msgstr ""
+
+msgid "Wave"
+msgstr ""
+
+msgid "pluse"
+msgstr ""
+
+msgid "shine"
+msgstr ""
+
+msgid "Gradient"
+msgstr ""
+
+msgid "Gradient Round"
+msgstr ""
+
+msgid "Gradient with Border"
+msgstr ""
+
+msgid "Title Font Size"
+msgstr ""
+
+msgid "Backgorund Colour"
+msgstr ""
+
+msgid "Text Colour"
+msgstr ""
+
+msgid "Epic Text"
+msgstr ""
+
+msgid "Epic Text Block For Epic Sliders"
+msgstr ""
+
+msgid "Text For Epic Sliders"
+msgstr ""
+
+msgid "This image has an empty alt attribute; its file name is %s"
+msgstr ""
+
+msgid "This image has an empty alt attribute"
+msgstr ""
+
+
+msgid "Could not edit image. %s"
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+
+msgid "Edit Image"
+msgstr ""
+
+
+msgid "Image settings"
+msgstr ""
+
+
+msgid "Alt text (alternative text)"
+msgstr ""
+
+
+msgid "Describe the purpose of the image"
+msgstr ""
+
+msgid "Leave empty if the image is purely decorative."
+msgstr ""
+
+
+msgid "Image Size"
+msgstr ""
+
+
+msgid "Left To Right"
+msgstr ""
+
+msgid "Up Down"
+msgstr ""
+
+
+msgid "Overlay Control"
+msgstr ""
+
+
+msgid "Apply"
+msgstr ""
+
+
+msgid "Cancel"
+msgstr ""
+
+
+msgid "Zoom"
+msgstr ""
+
+
+msgid "Hero image Block"
+msgstr ""
+
+
+msgid "Block has a aspect ratio to fit the slider perfectly when using the crop tool"
+msgstr ""
+
+
+msgid "Hero slider"
+msgstr ""
+
+
+msgid "Block showing Hero Slider."
+msgstr ""
+
+
+msgid "Collapse toggle"
+msgstr ""
+
+
+msgid "Image and text"
+msgstr ""
+
+
+msgid "Inner block for image and text"
+msgstr ""
+
+
+msgid "Image and Text"
+msgstr ""
+
+
+msgid "Block With off set text and image ."
+msgstr ""
+
+
+msgid "Portrait Image Block"
+msgstr ""
+
+
+msgid "Block has a aspec ratio to fit the slider perfectly when using the crop tool"
+msgstr ""
+
+
+msgid "Center focus slider"
+msgstr ""
+
+
+msgid "Image slider that shows their images with the center one as its focus."
+msgstr ""
+
+
+msgid "Small slider"
+msgstr ""
+
+
+msgid "Block Small Slider to if into other blocks."
+msgstr ""
+
+
+msgid "Wave slider"
+msgstr ""
+
+
+msgid "Hero Slider with Wave animation."
+msgstr ""
